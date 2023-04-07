@@ -9,6 +9,7 @@ header {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -24,15 +25,16 @@ header a {
     font-size: 20px;
     border-radius: 30px;
     padding: 10px;
-    margin: 50px;
+    
 }
 
-.navi {
-    margin: 30pxp;
-    pading: 10px;
-    border-radius: 10px;
-    
-    
+.div {
+    align-items: center;
+    display: flex;
+}
+
+.div b {
+    margin-left: 15px;
 }
 
 nav {
@@ -41,13 +43,18 @@ nav {
     border: 2px solid blue;
     border-radius: 10px;
     background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
-    margin: 30px;
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
+}
+
+nav a:hover {
+    border-bottom: 1px dotted white;
 }
 
 
@@ -68,7 +75,7 @@ nav a {
 }
 
 .ty {
-    margin: 20px;
+    
     padding: 10px;
     border-radius: 10px;
     border: 3px solid rebeccapurple;
@@ -100,4 +107,11 @@ footer {
     font-size: 20px;
     border-radius: 10px;
     color: white;
+}
+
+h2{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 30px;
+    font-weight: bold;
 }
